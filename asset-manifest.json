@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lautaroblasco23.github.io/static/css/main.6f8b023c.css",
-    "main.js": "/lautaroblasco23.github.io/static/js/main.39ffb02d.js",
-    "static/media/projects-background.svg": "/lautaroblasco23.github.io/static/media/projects-background.601fa428c546074d5c0d.svg",
-    "index.html": "/lautaroblasco23.github.io/index.html",
-    "main.6f8b023c.css.map": "/lautaroblasco23.github.io/static/css/main.6f8b023c.css.map",
-    "main.39ffb02d.js.map": "/lautaroblasco23.github.io/static/js/main.39ffb02d.js.map"
+    "main.css": "/portfolio-v2/static/css/main.bde7511d.css",
+    "main.js": "/portfolio-v2/static/js/main.39ffb02d.js",
+    "static/media/projects-background.svg": "/portfolio-v2/static/media/projects-background.601fa428c546074d5c0d.svg",
+    "index.html": "/portfolio-v2/index.html",
+    "main.bde7511d.css.map": "/portfolio-v2/static/css/main.bde7511d.css.map",
+    "main.39ffb02d.js.map": "/portfolio-v2/static/js/main.39ffb02d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f8b023c.css",
+    "static/css/main.bde7511d.css",
     "static/js/main.39ffb02d.js"
   ]
 }
