@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/lautaroblasco23.github.io/static/css/main.6f8b023c.css",
+    "main.js": "/lautaroblasco23.github.io/static/js/main.39ffb02d.js",
+    "static/media/projects-background.svg": "/lautaroblasco23.github.io/static/media/projects-background.601fa428c546074d5c0d.svg",
+    "index.html": "/lautaroblasco23.github.io/index.html",
+    "main.6f8b023c.css.map": "/lautaroblasco23.github.io/static/css/main.6f8b023c.css.map",
+    "main.39ffb02d.js.map": "/lautaroblasco23.github.io/static/js/main.39ffb02d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f8b023c.css",
+    "static/js/main.39ffb02d.js"
+  ]
+}
