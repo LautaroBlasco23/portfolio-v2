@@ -16,8 +16,8 @@ const Projects = () => {
   }, []);
   
   return (
-    <div id="projects-container" className="projects-container h-screen w-screen flex flex-col items-center ">
-      <h2 className="text-4xl mt-8 mx-12">Apps I've developed (not ready)</h2>
+    <div id="projects-container" className="h-screen w-screen flex flex-col items-center ">
+      <h2 className="text-3xl mt-8 mx-12 font-bold">Apps I've developed (not ready)</h2>
       <div className="w-full h-full mt-4 grid grid-cols-3 grid-rows-2 place-items-center mx-auto">
         {
           repos.map((repo) => {

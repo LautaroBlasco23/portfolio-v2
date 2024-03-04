@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.projects-container {
-  background-image: url("../public/projects-background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}

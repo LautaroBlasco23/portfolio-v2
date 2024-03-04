@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div id="hero-container" className="h-screen w-full bg-blue-200 grid grid-cols-10 grid-rows-10">
+    <div id="hero-container" className="h-screen w-full grid grid-cols-10 grid-rows-10">
       <h1 className="row-start-2 self-center col-start-2 col-end-10 text-4xl font-bold">Profile</h1>
       <div className="row-start-3 col-start-2 col-end-11 w-full">
 
