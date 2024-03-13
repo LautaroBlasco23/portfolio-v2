@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App overflow-hidden font-mono bg-neutral-100">
+    <div className="App overflow-hidden bg-neutral-100">
       <Navbar />
       <Hero />
       <Projects />
