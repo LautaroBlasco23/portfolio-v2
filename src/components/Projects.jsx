@@ -9,7 +9,10 @@ const Projects = () => {
     .then(data => data.json())
     .then((data) => {
         data = data.filter((repo) => {
-          return !repo.description.includes("personal project")
+          console.log("repo: ", repo);
+          if (repo.description != null) {
+            return !repo.description.includes("personal project")
+          }
         })
         setRepos(data);
     })
@@ -18,13 +21,13 @@ const Projects = () => {
   return (
     <div id="projects-container" className="h-screen w-screen flex flex-col items-center ">
       <h2 className="text-3xl mt-8 mx-12 font-bold">Apps I've developed (not ready)</h2>
-      <div className="w-full h-full mt-4 grid grid-cols-3 grid-rows-2 place-items-center mx-auto">
+      <div className="w-full h-full mt-4 flex items-center justify-around flex-wrap place-items-center mx-auto">
         {
           repos.map((repo) => {
-          return (
-            <ProjectCard title={repo.name} text={repo.description} link={repo.html_url}/>
-          )
-        })       
+            return (
+              <ProjectCard title={repo.name} text={repo.description} link={repo.html_url}/>
+            )
+          })
         }
       </div>
     </div>
